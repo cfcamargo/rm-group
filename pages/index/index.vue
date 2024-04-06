@@ -6,6 +6,7 @@
         <BannerHero />
         <HomeAbout />
         <HomeServices />
+        <HomeGadgets />
     </main>
 </template>
 

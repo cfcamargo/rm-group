@@ -1,5 +1,6 @@
 <template>
     <div class="w-full h-[calc(100dvh_+_80px)] xs:hidden md:flex relative overflow-hidden">
+
         <div class="w-[45%] bg-secondary relative flex items-center justify-center">
             <div class="absolute bottom-0 right-0 flex justify-end">
                 <img src="/produtor.png" alt="" class="w-[80%] translate-x-1/2">
@@ -118,8 +119,25 @@
             </Container>
         </div>
     </div>
+
+    <div class="efect absolute bottom-0 h-[300px] left-0 right-0 w-full  translate-y-[80px]" />
 </template>
 
 <script setup lang="ts">
 
 </script>
+
+<style>
+.efect {
+    /*
+    background: rgb(0,188,76);
+    background: linear-gradient(180deg, rgba(0,188,76,0) 0%, rgba(0,188,76,1) 100%);
+    */
+
+
+    background: rgb(0,188,76);
+    background: linear-gradient(180deg, rgba(0,188,76,0) 16%, rgba(0,188,76,1) 100%);
+
+
+}
+</style>

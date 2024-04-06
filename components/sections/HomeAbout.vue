@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-primary bg-[url('/icon-blue.png')] bg-no-repeat bg-contain">
+    <div class="bg-primary bg-[url('/icon-blue.png')] bg-no-repeat bg-contain xs:pb-8 md:pb-0">
         <Container class="grid xs:grid-cols-1 md:grid-cols-2">
             <div class="py-20 xs:w-full md:w-[80%] flex flex-col gap-8">
                 <div class="">

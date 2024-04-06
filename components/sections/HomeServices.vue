@@ -1,13 +1,13 @@
 <template>
     <div class="w-full py-20 bg-white">
-        <Container class="grid grid-cols-2 gap-20">
+        <Container class="xs:hidden md:grid xs:grid-cols-1 md:grid-cols-2 xs:gap-10 md:gap-20 h-[750px]">
             <div class="flex flex-col gap-8">
                 <div>
                     <span>SERVIÇOS</span>
                     <h4 class="text-3xl font-bold text-primary">O QUE FAZEMOS ?</h4>
                 </div>
 
-                <div>
+                <div class="xs:hidden md:block">
                     <div class="grid grid-cols-3">
                         <button class="flex items-center gap-2 justify-center" @click="selectService('consulting')">
                             <IconAcessory :fillColor="seriveSelected === 'consulting' ? '#00BC4C' : '#002132'"/>
@@ -31,20 +31,43 @@
                     </div>
                 </div>
 
-                <div class="flex flex-col gap-8 items-start">
+                <div class="flex-1 flex flex-col mt-10 gap-8 items-start">
                     <h4 class="text-2xl font-bold text-primary">{{serviceList[seriveSelected].title}}</h4>
                     <p class="text-secondary text-justify">{{serviceList[seriveSelected].content}}</p>
                     <span class="text-secondary">{{serviceList[seriveSelected].action}}</span>
 
-                    <BaseButton text="Saiba mais" url="/services"/>
+                    <BaseButton class="xs:w-full md:w-auto" text="Saiba mais" url="/services"/>
                 </div>
             </div>
 
-            <div class="p-20">
+            <div class="xs:p-12 md:p-20">
                 <div class="relative">
                     <NuxtImg :src="serviceList[seriveSelected].images[0]" alt="" class="w-full"/>
                     <NuxtImg :src="serviceList[seriveSelected].images[1]" alt="" class="absolute z-30 top-0 left-0 -translate-x-1/2 -translate-y-1/2"/>
                     <NuxtImg :src="serviceList[seriveSelected].images[2]" alt="" class="absolute z-30 bottom-0 right-0 translate-x-1/2 translate-y-1/2"/>
+                </div>
+            </div>
+        </Container>
+
+        <Container class="xs:flex flex-col md:hidden">
+            <div class="flex flex-col gap-10">
+                <div>
+                    <span>SERVIÇOS</span>
+                    <h4 class="text-3xl font-bold text-primary">O QUE FAZEMOS ?</h4>
+                </div>
+
+                <div class="flex flex-col-reverse gap-8" v-for="service in serviceList" :key="service.title">
+                    <div class="flex flex-col gap-8 items-start">
+                        <h4 class="text-2xl font-bold text-primary">{{service.title}}</h4>
+                        <p class="text-secondary text-justify">{{service.content}}</p>
+                        <span class="text-secondary">{{service.action}}</span>
+
+                        <BaseButton class="xs:w-full md:w-auto" text="Saiba mais" url="/services"/>
+                    </div>
+
+                    <div class="relative">
+                        <NuxtImg :src="service.images[0]" alt="" class="w-full"/>
+                    </div>
                 </div>
             </div>
         </Container>
