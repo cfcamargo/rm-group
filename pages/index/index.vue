@@ -1,13 +1,11 @@
 <template>
-    <div class="fixed w-full top-0 z-50">
-        <Header />
-    </div>
-    <main>
+    <app-layout>
         <BannerHero />
         <HomeAbout />
         <HomeServices />
         <HomeGadgets />
-    </main>
+        <HomeCompanies />
+    </app-layout>
 </template>
 
 <script setup lang="ts">
