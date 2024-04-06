@@ -6,7 +6,7 @@
                     <Logo />
                 </NuxtLink>
 
-                <div class="flex gap-4">
+                <div class="xs:hidden md:flex gap-4">
                     <NuxtLink to="/" class="text-secondary font-bold hover:text-primary">Home</NuxtLink>
                     <NuxtLink to="/services" class="text-secondary font-bold hover:text-primary">Serviços</NuxtLink>
                     <NuxtLink to="/about" class="text-secondary font-bold hover:text-primary">Sobre</NuxtLink>
@@ -15,7 +15,12 @@
                     <NuxtLink to="/contact" class="text-secondary font-bold hover:text-primary">Contato</NuxtLink>
                 </div>
 
-                <a href="#" class="px-8 py-2 rounded bg-primary text-secondary">Área do Cliente</a>
+                <a href="#" class="xs:hidden md:flex justify-center items-center px-8 py-2 rounded bg-primary text-secondary">Área do Cliente</a>
+
+
+                <div class="xs:fled md:hidden">
+
+                </div>
             </Container>
         </nav>
     </div>
