@@ -15,7 +15,7 @@
                     <NuxtLink to="/contact" class="text-secondary font-bold hover:text-primary">Contato</NuxtLink>
                 </div>
 
-                <a href="#" class="xs:hidden md:flex justify-center items-center px-8 py-2 rounded bg-primary text-secondary">Área do Cliente</a>
+                <a href="#" class="xs:hidden md:flex justify-center items-center px-8 py-2 rounded-lg bg-primary text-secondary">Área do Cliente</a>
 
 
                 <div class="xs:fled md:hidden">

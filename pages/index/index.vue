@@ -4,6 +4,7 @@
     </div>
     <main>
         <BannerHero />
+        <HomeAbout />
     </main>
 </template>
 
