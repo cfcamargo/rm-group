@@ -5,6 +5,7 @@
     <main>
         <BannerHero />
         <HomeAbout />
+        <HomeServices />
     </main>
 </template>
 
