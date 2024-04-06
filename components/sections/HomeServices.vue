@@ -4,7 +4,7 @@
             <div class="flex flex-col gap-8">
                 <div>
                     <span>SERVIÇOS</span>
-                    <h4 class="text-3xl font-bold text-primary">O QUE FAZEMOS ?</h4>
+                    <h4 class="text-3xl font-bold text-primary">O QUE FAZEMOS?</h4>
                 </div>
 
                 <div class="xs:hidden md:block">
@@ -53,7 +53,7 @@
             <div class="flex flex-col gap-10">
                 <div>
                     <span>SERVIÇOS</span>
-                    <h4 class="text-3xl font-bold text-primary">O QUE FAZEMOS ?</h4>
+                    <h4 class="text-3xl font-bold text-primary">O QUE FAZEMOS?</h4>
                 </div>
 
                 <div class="flex flex-col-reverse gap-8" v-for="service in serviceList" :key="service.title">
@@ -87,7 +87,7 @@ const serviceList = {
     },
     monitoring: {
         title: 'Inteligência de Mercado',
-        content: 'A Inteligência de Mercado da R.M Agro é como ter um guia especializado para o agronegócio. Nossa equipe se dedica a analisar as tendências do mercado, fornecendo insights valiosos e estratégicos para nossos clientes. Com esse recurso, você poderá tomar decisões importantes, aproveitando as oportunidades e enfrentando os desafios com mais clareza. Conte conosco para ser sua parceira na jornada de crescimento e sucesso.',
+        content: 'A Inteligência de Mercado da RM Agro é como ter um guia especializado para o agronegócio. Nossa equipe se dedica a analisar as tendências do mercado, fornecendo insights valiosos e estratégicos para nossos clientes. Com esse recurso, você poderá tomar decisões importantes, aproveitando as oportunidades e enfrentando os desafios com mais clareza. Conte conosco para ser sua parceira na jornada de crescimento e sucesso.',
         action: 'Conheca mais sobre nossos insights',
         images: ['/services/home-report1.png', '/services/home-report2.png', '/services/home-report3.png']
     },
