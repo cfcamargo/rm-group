@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   components: [{ path: '~/components', pathPrefix: false }],
-  css: ['~/assets/css/main.css'],
+  css: ['@/assets/css/main.css', '@/assets/css/hamburguer.css'],
   postcss: {
     plugins: {
       tailwindcss: {},
