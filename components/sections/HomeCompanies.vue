@@ -15,7 +15,7 @@
                 >
                     <SwiperSlide v-for="(company, index) in companiesList" :key="index">
                         <div class="h-[100px] flex items-center w-full p-8">
-                            <NuxtImg :src="company" class="w-full object-cover grayscale"/>
+                            <NuxtImg :src="company" class="w-full object-cover"/>
                         </div>
                     </SwiperSlide>
                 </Swiper>
