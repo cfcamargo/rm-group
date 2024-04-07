@@ -12,7 +12,7 @@
                     <NuxtLink to="/about" class="text-secondary font-bold hover:text-primary">Sobre</NuxtLink>
                     <NuxtLink to="/biography" class="text-secondary font-bold hover:text-primary">Biografia</NuxtLink>
                     <NuxtLink to="/companies" class="text-secondary font-bold hover:text-primary">Parceiros</NuxtLink>
-                    <NuxtLink to="/contact" class="text-secondary font-bold hover:text-primary">Contato</NuxtLink>
+                    <NuxtLink to="#contact" class="text-secondary font-bold hover:text-primary">Contato</NuxtLink>
                 </div>
 
                 <a href="#" class="xs:hidden md:flex justify-center items-center px-8 py-2 rounded-lg bg-primary text-secondary">Área do Cliente</a>
@@ -34,7 +34,7 @@
                     <NuxtLink to="/about" class="text-secondary font-bold hover:text-primary">Sobre</NuxtLink>
                     <NuxtLink to="/biography" class="text-secondary font-bold hover:text-primary">Biografia</NuxtLink>
                     <NuxtLink to="/companies" class="text-secondary font-bold hover:text-primary">Parceiros</NuxtLink>
-                    <NuxtLink to="/contact" class="text-secondary font-bold hover:text-primary">Contato</NuxtLink>
+                    <NuxtLink to="#contact" class="text-secondary font-bold hover:text-primary">Contato</NuxtLink>
                 </nav>
             </transition>
         </nav>

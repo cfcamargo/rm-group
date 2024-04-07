@@ -14,7 +14,7 @@
                 </div>
             </div>
 
-            <div class="flex flex-col gap-6">
+            <div class="flex flex-col gap-6" id="contact">
                 <div class="flex flex-col gap-2">
                     <h4 class="font-bold" :class="styleType === 'blue' ? 'text-primary' : 'text-secondary'">Contato</h4>
                     <div class="flex flex-col gap-2" :class="styleType === 'blue' ? 'text-white' : 'text-secondary'">
@@ -32,14 +32,14 @@
                 <div class="flex flex-col gap-4">
                     <h4 class="font-bold" :class="styleType === 'blue' ? 'text-primary' : 'text-secondary'">Redes Sociais</h4>
                     <div class="flex flex-col gap-2" :class="styleType === 'blue' ? 'text-white' : 'text-secondary'">
-                        <a href="" class="flex items-center gap-2">
+                        <a href="https://www.instagram.com/rmg.agro?igsh=OHluYjdhd3kyMTdk" target="_blank" class="flex items-center gap-2">
                             <IconInstagram :color="setIconStyle" />
                             <span>@rm.agro</span>
                         </a>
-                        <a href="mailto:rodrigo@rmgroup.com.br" class="flex items-center gap-2">
+                        <!-- <a href="mailto:rodrigo@rmgroup.com.br" class="flex items-center gap-2">
                             <IconLinkedin :color="setIconStyle" />
                             <span>RM AGRO</span>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
