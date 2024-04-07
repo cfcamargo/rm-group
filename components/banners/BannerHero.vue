@@ -120,7 +120,7 @@
         </div>
     </div>
 
-    <div class="efect absolute bottom-0 h-[300px] left-0 right-0 w-full  translate-y-[80px]" />
+    <div class="efect xs:hidden md:absolute bottom-0 h-[300px] left-0 right-0 w-full  translate-y-[80px]" />
 </template>
 
 <script setup lang="ts">

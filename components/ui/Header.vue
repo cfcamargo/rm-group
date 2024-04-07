@@ -29,12 +29,12 @@
 
             <transition enter-active-class="animate__animated animate__fadeInDown">
                 <nav class="flex-1 flex flex-col gap-10 justify-center items-center py-8 text-lg" v-if="showMenu">
-                    <NuxtLink to="/" class="text-secondary font-bold hover:text-primary">Home</NuxtLink>
-                    <NuxtLink to="/services" class="text-secondary font-bold hover:text-primary">Serviços</NuxtLink>
-                    <NuxtLink to="/about" class="text-secondary font-bold hover:text-primary">Sobre</NuxtLink>
-                    <NuxtLink to="/biography" class="text-secondary font-bold hover:text-primary">Biografia</NuxtLink>
-                    <NuxtLink to="/companies" class="text-secondary font-bold hover:text-primary">Parceiros</NuxtLink>
-                    <NuxtLink to="#contact" class="text-secondary font-bold hover:text-primary">Contato</NuxtLink>
+                    <NuxtLink to="/" class="text-secondary font-bold hover:text-primary" @click="toogleMenu">Home</NuxtLink>
+                    <NuxtLink to="/services" class="text-secondary font-bold hover:text-primary" @click="toogleMenu">Serviços</NuxtLink>
+                    <NuxtLink to="/about" class="text-secondary font-bold hover:text-primary" @click="toogleMenu">Sobre</NuxtLink>
+                    <NuxtLink to="/biography" class="text-secondary font-bold hover:text-primary" @click="toogleMenu">Biografia</NuxtLink>
+                    <NuxtLink to="/companies" class="text-secondary font-bold hover:text-primary" @click="toogleMenu">Parceiros</NuxtLink>
+                    <NuxtLink to="#contact" class="text-secondary font-bold hover:text-primary" @click="toogleMenu">Contato</NuxtLink>
                 </nav>
             </transition>
         </nav>
