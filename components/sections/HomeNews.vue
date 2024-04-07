@@ -5,7 +5,7 @@
         </Container>
 
         <div class="mt-[200px] w-full bg-primary h-[300px]">
-            <Container class="grid grid-cols-4 -translate-y-[100px]">
+            <Container class="grid xs:grid-cols-1 md:grid-cols-4 -translate-y-[100px]">
                 <NuxtLink to="/news/1">
                     <div class="w-full h-[300px] bg-white rounded-md overflow-hidden shadow-md flex-flex-col">
                         <div class="w-full h-[120px] bg-cover bg-[url('/news-1.jpg')]">
