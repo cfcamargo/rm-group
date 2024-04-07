@@ -5,7 +5,7 @@
     <main>
         <slot/>
     </main>
-    <Footer />
+    <Footer/>
 </template>
 
 <script setup lang="ts">
