@@ -1,0 +1,18 @@
+<template>
+    <svg :width="icon_width" :height="icon_height" :class="color" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19.8 0H2.2C0.99 0 0 0.99 0 2.2V19.8C0 21.01 0.99 22 2.2 22H19.8C21.01 22 22 21.01 22 19.8V2.2C22 0.99 21.01 0 19.8 0ZM6.6 18.7H3.3V8.8H6.6V18.7ZM4.95 6.93C3.85 6.93 2.97 6.05 2.97 4.95C2.97 3.85 3.85 2.97 4.95 2.97C6.05 2.97 6.93 3.85 6.93 4.95C6.93 6.05 6.05 6.93 4.95 6.93ZM18.7 18.7H15.4V12.87C15.4 11.99 14.63 11.22 13.75 11.22C12.87 11.22 12.1 11.99 12.1 12.87V18.7H8.8V8.8H12.1V10.12C12.65 9.24 13.86 8.58 14.85 8.58C16.94 8.58 18.7 10.34 18.7 12.43V18.7Z"/>
+    </svg>
+</template>
+
+<script setup lang="ts">
+
+const { icon_height, icon_width, color } = withDefaults(defineProps<{
+    icon_height?: number,
+    icon_width?: number,
+    color?: string
+}>(), {
+    icon_height: 22,
+    icon_width: 22,
+    color: 'fill-current text-primary',
+})
+</script>
