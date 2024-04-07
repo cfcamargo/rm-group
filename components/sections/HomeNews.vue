@@ -15,7 +15,7 @@
                         <div class="flex-1 flex flex-col gap-6 p-4">
                             <span class="font-bold text-primary">RM Agro inova no agronegócio</span>
 
-                            <p class="overflow-ellipsis">A R.M Agro é uma empresa pioneira...</p>
+                            <p class="overflow-ellipsis">A RM Agro é uma empresa pioneira...</p>
 
                             <NuxtLink to="/news/1" class="text-primary font-bold">Ler mais</NuxtLink>
                         </div>
