@@ -8,7 +8,7 @@
     </div>
 
 
-    <Container class="py-20 grid grid-cols-2 items-center gap-20">
+    <Container class="py-20 xs:grid-cols-1 grid md:grid-cols-2 items-center gap-10">
         <div class="flex flex-col gap-10">
             <p>A RM Agro é uma empresa pioneira na gestão de riscos no agronegócio. Prestando consultoria e treinamentos especializados, está revolucionando o setor com seu compromisso e profissionalismo nos segmentos de transporte, combustíveis e agrícolas.</p>
 
@@ -17,7 +17,7 @@
             <p>Com valores centrados na excelência, profissionalismo, ética, inovação e sustentabilidade, a R.M Agro busca não apenas liderar o mercado, mas também impactar positivamente o agronegócio.</p>
         </div>
 
-        <div class="rounded-md overflow-hidden shadow-md">
+        <div class="rounded-md overflow-hidden flex justify-center xs:mt-20 md:mt-0 shadow-md">
             <NuxtImg src="/news-1.jpg"/>
         </div>
     </Container>
