@@ -18,7 +18,7 @@
                 <div class="flex flex-col gap-2">
                     <h4 class="font-bold" :class="layoutStore.getFooterColor === 'blue' ? 'text-primary' : 'text-secondary'">Contato</h4>
                     <div class="flex flex-col gap-2" :class="layoutStore.getFooterColor === 'blue' ? 'text-white' : 'text-secondary'">
-                        <a href="" class="flex items-center gap-2">
+                        <a href="https://api.whatsapp.com/send?phone=5565999377184" target="_blank" class="flex items-center gap-2">
                             <IconWhatsapp :color="setIconStyle" />
                             <span>Whatsapp</span>
                         </a>
