@@ -6,7 +6,7 @@
                 <img src="/produtor.png" alt="" class="w-[80%] translate-x-1/2">
             </div>
 
-            <div class="absolute flex justify-center items-center rounded-full top-[150px] right-0 translate-x-1/2 z-30 w-20 h-20 bg-primary shadow-md">
+            <div class="absolute flex justify-center items-center rounded-full top-[150px] right-0 translate-x-[250px] z-30 w-20 h-20 bg-primary shadow-md">
                 <svg width="38" height="46" viewBox="0 0 38 46" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M8.83069 45.6136H4.04582C3.81611 45.6136 3.59581 45.5224 3.43337 45.3599C3.27094 45.1975 3.17969 44.9772 3.17969 44.7475V30.9164C3.17969 30.6867 3.27094 30.4663 3.43337 30.3039C3.59581 30.1415 3.81611 30.0502 4.04582 30.0502H8.83069C9.0604 30.0502 9.2807 30.1415 9.44314 30.3039C9.60557 30.4663 9.69682 30.6867 9.69682 30.9164V44.7475C9.69682 44.9772 9.60557 45.1975 9.44314 45.3599C9.2807 45.5224 9.0604 45.6136 8.83069 45.6136ZM4.91196 43.8813H7.96455V31.7825H4.91196V43.8813Z" fill="#002132"/>
                 <path d="M17.4215 45.6136H12.6366C12.4069 45.6136 12.1866 45.5224 12.0242 45.3599C11.8618 45.1975 11.7705 44.9772 11.7705 44.7475V25.6584C11.7705 25.4287 11.8618 25.2084 12.0242 25.0459C12.1866 24.8835 12.4069 24.7922 12.6366 24.7922H17.4215C17.6512 24.7922 17.8715 24.8835 18.034 25.0459C18.1964 25.2084 18.2876 25.4287 18.2876 25.6584V44.7475C18.2876 44.9772 18.1964 45.1975 18.034 45.3599C17.8715 45.5224 17.6512 45.6136 17.4215 45.6136ZM13.5028 43.8813H16.5554V26.5245H13.5028V43.8813Z" fill="#002132"/>
@@ -120,7 +120,7 @@
         </div>
     </div>
 
-    <div class="efect xs:hidden md:absolute bottom-0 h-[300px] left-0 right-0 w-full  translate-y-[80px]" />
+    <div class="efect xs:hidden md:block absolute bottom-0 h-[300px] left-0 right-0 w-full  translate-y-[80px]" />
 </template>
 
 <script setup lang="ts">
