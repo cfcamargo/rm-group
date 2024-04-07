@@ -37,7 +37,7 @@
 
                 <p>Ela oferece acesso a notícias e informações atualizadas sobre cotações de mercado, dados climáticos, contratos futuros, fretes, fertilizantes, indicadores entre outros.</p>
  
-                <BaseButton text="QUERO TER ACESSO" url="#" class="xs:w-full md:w-[270px]"/>
+                <BaseButton text="QUERO TER ACESSO" url="https://api.whatsapp.com/send?phone=5565999377184&text=Ola%20Gostaria%20de%20saber%20mais%20sobre%20o%20sistema%20da%20RM%20AGRO" class="xs:w-full md:w-[270px]"/>
             </div>
         </Container>
     </div>
@@ -78,6 +78,8 @@
                 </h3>
 
                 <p class="text-secondary text-justify">Realizamos treinamentos presenciais ou remotos, de acordo com as necessidades da sua empresa. Nosso objetivo é capacitar suas equipes, aprofundando o conhecimento no cenário do setor, incentivando decisões mais assertivas e estratégicas.</p>
+
+                <BaseButton text="SABER MAIS" url="https://api.whatsapp.com/send?phone=5565999377184&text=Ola%20Gostaria%20de%20saber%20mais%20sobre%20os%20treinamentos"  class="xs:w-full md:w-[200px]"/>
             </div>
         </Container>
     </div>

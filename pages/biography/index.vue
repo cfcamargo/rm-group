@@ -29,13 +29,13 @@
             <div class="flex flex-col gap-4 text-white text-justify">
                 <h4 class=" text-xl text-primary font-bold">Mateus Cabral</h4>
 
-                <p>Conheça Mateus Brizueña, co-fundador da RM Agro. Formado em Engenharia Agronômica, possui mais de uma década de experiência no agronegócio. Começou sua  jornada no setor comercial de insumos, e ao longo dos anos, se dedicou ao mercado de grãos, onde desempenhou papeis operacionais e comerciais. Além disso, atuou ativamente na construção das mesas de derivativos e riscos em três grandes empresas brasileiras, sendo duas agrícolas com atuação em dez estados brasileiros, e uma de energia, com atuação global.</p>
+                <p>Conheça Mateus Brizueña, co-fundador da RM Agro. Técnico Agrícola e Engenheiro Agrônomo, possui mais de uma década de experiência em Gestão de Risco e operações comerciais de Soja, Milho, insumos agrícolas, biocombustíveis e derivados de petróleo. Iniciando sua trajetória profissional, foi de classificador de grãos a Trader de Commodities atuando ativamente na construção das mesas de derivativos e riscos em três grandes empresas com atuação a nível nacional e internacional.</p>
 
                 <p>Sua ligação com o agronegócio vem desde a infância, influenciado pela família que já tinha participações no setor. Para Mateus, o agronegócio não é apenas uma área de trabalho, mas sim um estilo de vida. Suas aspirações, seus relacionamentos e dedicação estão todos entrelaçados com o agronegócio.</p>
 
-                <p>Dentro da RM Agro, sua atuação vai além do executivo. Irá participar ativamente da formulação de estratégias, mantendo proximidade aos clientes.</p>
+                <p>Dentro da RM Agro, sua atuação vai além do executivo, com atuação direta na formulação de estratégias, mantendo proximidade aos clientes.</p>
 
-                <p>Fora do escritório, considera-se um homem simples que valoriza momentos de convívio com amigos, apreciando um bom churrasco, praticando pesca e explorando novos lugares. Para ele, construir relacionamentos sólidos é tão importante quanto qualquer transação comercial, e é isso que o motiva a seguir neste caminho do agronegócio.</p>
+                <p>Fora do escritório, considera-se um homem simples que valoriza momentos de convívio com amigos. Para ele, construir relacionamentos sólidos é tão importante quanto qualquer transação comercial, e é isso que o motiva a seguir neste caminho do agronegócio.</p>
             </div>
             
             <div class="grid grid-cols-2 gap-4">
@@ -48,6 +48,10 @@
 
 <script setup lang="ts">
 import { useLayoutStore } from '@/store'
+
+useHead({
+  title: 'RM AGRO | Biografia',
+})
 
 onMounted(() => {
     useLayoutStore().setFooterColor('green')

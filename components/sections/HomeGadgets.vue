@@ -13,7 +13,7 @@
                     <p>Tenha acesso a dados sobre diversos indicadores do mercado como produção, consumo, estoques e preços.</p>
                 </div>
 
-                <BaseButton class="xs:w-full md:w-[200px]"url="" text="SAIBA MAIS"/>
+                <BaseButton class="xs:w-full md:w-[200px]" target="_blank" url="https://api.whatsapp.com/send?phone=5565999377184&text=Ola%20Gostaria%20de%20saber%20mais%20sobre%20o%20sistema%20da%20RM%20AGRO" text="SAIBA MAIS"/>
             </div>
         </Container>
     </div>

@@ -63,6 +63,10 @@
 <script setup lang="ts">
 import { useLayoutStore } from '@/store'
 
+useHead({
+  title: 'RM AGRO | Sobre',
+})
+
 onMounted(() => {
     useLayoutStore().setFooterColor('blue')
 })

@@ -11,6 +11,10 @@
 <script setup lang="ts">
 import { useLayoutStore } from '@/store'
 
+useHead({
+  title: 'RM AGRO | Consultoria e Gestão de Risco',
+})
+
 onMounted(() => {
     useLayoutStore().setFooterColor('blue')
 })

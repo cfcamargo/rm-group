@@ -21,6 +21,10 @@ import { useLayoutStore } from '@/store'
 
 const companiesList = companies
 
+useHead({
+  title: 'RM AGRO |Nossos Perceiros',
+})
+
 onMounted(() => {
     useLayoutStore().setFooterColor('blue')
 })

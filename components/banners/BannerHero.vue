@@ -91,7 +91,7 @@
                     </div>
                 </div>
 
-                <BaseButton url="#contato" text="Conheca a RM AGRO" class="w-[300px]"/>
+                <BaseButton url="/services" text="Conheca a RM AGRO" class="w-[300px]"/>
             </div>
         </Container>
     </div>
@@ -114,7 +114,7 @@
                         </div>
                     </div>
 
-                    <BaseButton url="#contato" text="Conheca a RM AGRO" class="w-[300px] mx-auto"/>
+                    <BaseButton url="/services" text="Conheca a RM AGRO" class="w-[300px] mx-auto"/>
                 </div>
             </Container>
         </div>

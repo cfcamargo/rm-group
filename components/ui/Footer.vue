@@ -34,7 +34,7 @@
                     <div class="flex flex-col gap-2" :class="layoutStore.getFooterColor === 'blue' ? 'text-white' : 'text-secondary'">
                         <a href="https://www.instagram.com/rmg.agro?igsh=OHluYjdhd3kyMTdk" target="_blank" class="flex items-center gap-2">
                             <IconInstagram :color="setIconStyle" />
-                            <span>@rm.agro</span>
+                            <span>@rmg.agro</span>
                         </a>
                         <!-- <a href="mailto:rodrigo@rmgroup.com.br" class="flex items-center gap-2">
                             <IconLinkedin :color="setIconStyle" />
