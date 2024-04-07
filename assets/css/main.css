@@ -8,3 +8,12 @@
     background: rgb(30,30,30);
     background: linear-gradient(210deg, rgba(30,30,30,1) 0%, rgba(30,30,30,0) 100%);
 }
+
+
+.banner-effect{
+    background: rgb(0,33,50);
+    background: -moz-linear-gradient(180deg, rgba(0,33,50,1) 0%, rgba(0,33,50,0) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,33,50,1) 0%, rgba(0,33,50,0) 100%);
+    background: linear-gradient(180deg, rgba(0,33,50,1) 0%, rgba(0,33,50,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#002132",endColorstr="#002132",GradientType=1);
+}

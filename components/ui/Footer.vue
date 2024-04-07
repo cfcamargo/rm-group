@@ -19,11 +19,11 @@
                     <h4 class="font-bold" :class="styleType === 'blue' ? 'text-primary' : 'text-secondary'">Contato</h4>
                     <div class="flex flex-col gap-2" :class="styleType === 'blue' ? 'text-white' : 'text-secondary'">
                         <a href="" class="flex items-center gap-2">
-                            <IconWhatsapp color="fill-current" :color="setIconStyle" />
+                            <IconWhatsapp :color="setIconStyle" />
                             <span>Whatsapp</span>
                         </a>
                         <a href="mailto:rodrigo@rmgroup.com.br" class="flex items-center gap-2">
-                            <IconMail color="fill-current" :color="setIconStyle" />
+                            <IconMail :color="setIconStyle" />
                             <span>rodrigo@rmgroup.com.br</span>
                         </a>
                     </div>
@@ -33,11 +33,11 @@
                     <h4 class="font-bold" :class="styleType === 'blue' ? 'text-primary' : 'text-secondary'">Redes Sociais</h4>
                     <div class="flex flex-col gap-2" :class="styleType === 'blue' ? 'text-white' : 'text-secondary'">
                         <a href="" class="flex items-center gap-2">
-                            <IconInstagram color="fill-current" :color="setIconStyle" />
+                            <IconInstagram :color="setIconStyle" />
                             <span>@rm.agro</span>
                         </a>
                         <a href="mailto:rodrigo@rmgroup.com.br" class="flex items-center gap-2">
-                            <IconLinkedin color="fill-current" :color="setIconStyle" />
+                            <IconLinkedin :color="setIconStyle" />
                             <span>RM AGRO</span>
                         </a>
                     </div>
@@ -64,7 +64,7 @@ const { styleType } = withDefaults(defineProps<{
    styleType: 'blue'
 })
 
-const setStyle = computed(() => {
+const setStyle = computed<string>(() => {
     if(styleType === 'blue') {
         return "bg-secondary border-primary bg-[url('/icon-blue.png')]"
     } else {
@@ -72,11 +72,11 @@ const setStyle = computed(() => {
     }
 })
 
-const setIconStyle = computed((): string => {
+const setIconStyle = computed<string>((): string => {
     if(styleType === 'blue') {
-        return "text-white"
+        return "fill-current text-white"
     } else {
-        return "text-secondary"
+        return "fill-current text-secondary"
     }
 })
 

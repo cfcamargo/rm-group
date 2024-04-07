@@ -13,9 +13,9 @@
                         disableOnInteraction: false,
                     }"
                 >
-                    <SwiperSlide v-for="(company, index) in companies" :key="index">
+                    <SwiperSlide v-for="(company, index) in companiesList" :key="index">
                         <div class="h-[100px] flex items-center w-full p-8">
-                            <NuxtImg :src="company" class="w-full object-cover"/>
+                            <NuxtImg :src="company" class="w-full object-cover grayscale"/>
                         </div>
                     </SwiperSlide>
                 </Swiper>
@@ -25,16 +25,9 @@
 </template>
 
 <script setup lang="ts">
-const companies = [
-    '/companies/broadcast.png',
-    '/companies/fibraforte.png',
-    '/companies/fribon.png',
-    '/companies/rodofrota.png',
-    '/companies/rodolider.png',
-    '/companies/rodoviva.png',
-    '/companies/transval.png',
+import { companies } from '~/models/companies';
 
-]
+const companiesList = companies
 
 const slidesPerView = ref(4)
 
