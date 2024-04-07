@@ -6,11 +6,11 @@
 
                 <div class="flex flex-col gap-2" :class="layoutStore.getFooterColor === 'blue' ? 'text-white' : 'text-secondary'">
                     <NuxtLink to="/" class="text-sm">Home</NuxtLink>
-                    <NuxtLink to="/" class="text-sm">Sobre</NuxtLink>
-                    <NuxtLink to="/" class="text-sm">Serviços</NuxtLink>
-                    <NuxtLink to="/" class="text-sm">Biografia</NuxtLink>
-                    <NuxtLink to="/" class="text-sm">Parceiros</NuxtLink>
-                    <NuxtLink to="/" class="text-sm">Contato</NuxtLink>
+                    <NuxtLink to="/about" class="text-sm">Sobre</NuxtLink>
+                    <NuxtLink to="/services" class="text-sm">Serviços</NuxtLink>
+                    <NuxtLink to="/biography" class="text-sm">Biografia</NuxtLink>
+                    <NuxtLink to="/companies" class="text-sm">Parceiros</NuxtLink>
+                    <NuxtLink to="#contact" class="text-sm">Contato</NuxtLink>
                 </div>
             </div>
 

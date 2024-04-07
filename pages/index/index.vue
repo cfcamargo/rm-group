@@ -3,6 +3,8 @@
     <HomeAbout />
     <HomeServices />
     <HomeGadgets />
+    <HomeWidgets />
+    <HomeNews />
     <HomeCompanies />
 </template>
 
