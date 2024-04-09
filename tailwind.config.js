@@ -15,7 +15,7 @@ export default {
         'secondary' : '#002132',
       }, 
       screens : {
-        'xs' : '390px'
+        'xs' : '360px'
       },
     },
   },
