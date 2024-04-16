@@ -15,7 +15,7 @@
                     <NuxtLink to="#contact" class="text-secondary font-bold hover:text-primary">Contato</NuxtLink>
                 </div>
 
-                <a href="https://agro.aebroadcast.com.br/login" target="_blank" class="xs:hidden md:flex justify-center items-center px-8 py-2 rounded-lg bg-primary text-secondary">Área do Cliente</a>
+                <a href="https://rmagro.aebroadcast.com.br/login" target="_blank" class="xs:hidden md:flex justify-center items-center px-8 py-2 rounded-lg bg-primary text-secondary">Área do Cliente</a>
 
 
                 <div class="xs:fled md:hidden">
@@ -36,7 +36,7 @@
                     <NuxtLink to="/companies" class="text-secondary font-bold hover:text-primary" @click="toogleMenu">Parceiros</NuxtLink>
                     <NuxtLink to="#contact" class="text-secondary font-bold hover:text-primary" @click="toogleMenu">Contato</NuxtLink>
                     <div class="px-2 w-full translate-y-6">
-                        <a href="https://agro.aebroadcast.com.br/login" target="_blank" class="flex justify-center items-center w-full px-8 py-2 rounded-lg bg-primary text-secondary">Área do Cliente</a>
+                        <a href="https://rmagro.aebroadcast.com.br/login" target="_blank" class="flex justify-center items-center w-full px-8 py-2 rounded-lg bg-primary text-secondary">Área do Cliente</a>
                     </div>
                 </nav>
             </transition>
