@@ -82,12 +82,12 @@
                 <div class="flex gap-2">
                     <div class="flex gap-2 items-center px-4 py-2 border border-primary rounded">
                         <IconAcessory />
-                        <span class="text-primary">Acessoria</span>
+                        <span class="text-primary">Assessoria</span>
                     </div>
 
                     <div class="flex gap-2 items-center px-4 py-2 border border-primary rounded">
                         <IconConsulting />
-                        <span class="text-primary">Consultoria</span>
+                        <span class="text-primary">Gestão de risco</span>
                     </div>
                 </div>
 
@@ -119,8 +119,6 @@
             </Container>
         </div>
     </div>
-
-    <!-- <div class="efect xs:hidden md:block absolute bottom-0 h-[300px] left-0 right-0 w-full  translate-y-[80px]" /> -->
 </template>
 
 <script setup lang="ts">
@@ -129,12 +127,6 @@
 
 <style>
 .efect {
-    /*
-    background: rgb(0,188,76);
-    background: linear-gradient(180deg, rgba(0,188,76,0) 0%, rgba(0,188,76,1) 100%);
-    */
-
-
     background: rgb(0,188,76);
     background: linear-gradient(180deg, rgba(0,188,76,0) 16%, rgba(0,188,76,1) 100%);
 
