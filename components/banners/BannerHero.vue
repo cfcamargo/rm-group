@@ -105,12 +105,12 @@
                     <div class="flex justify-center gap-2">
                         <div class="flex gap-2 items-center px-4 py-2 border border-primary rounded">
                             <IconAcessory />
-                            <span class="text-primary">Acessoria</span>
+                            <span class="text-primary">Assessoria</span>
                         </div>
 
                         <div class="flex gap-2 items-center px-4 py-2 border border-primary rounded">
                             <IconConsulting />
-                            <span class="text-primary">Consultoria</span>
+                            <span class="text-primary">Gestão de risco</span>
                         </div>
                     </div>
 
