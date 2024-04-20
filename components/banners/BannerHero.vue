@@ -77,7 +77,7 @@
 
         <Container class="absolute h-full flex items-center left-0 right-0">
             <div class="w-[40%] flex flex-col gap-8">
-                <h2 class="text-3xl text-white font-bold">Descubra uma nova perspectiva de consultoria no agronegócio e junte-se a nós para transformar sua <span class="text-primary">gestão do risco</span></h2>
+                <h2 class="text-3xl text-white font-bold">Descubra uma nova perspectiva de consultoria no agronegócio e junte-se a nós para transformar sua <span class="text-primary">gestão de risco</span></h2>
 
                 <div class="flex gap-2">
                     <div class="flex gap-2 items-center px-4 py-2 border border-primary rounded">
@@ -100,7 +100,7 @@
         <div>
             <Container class="absolute h-full flex items-center left-0 right-0">
                 <div class="w-full flex flex-col gap-8">
-                    <h2 class="text-3xl text-center text-white font-bold">Descubra uma nova perspectiva de consultoria no agronegócio e junte-se a nós para transformar sua <span class="text-primary">gestão do risco</span></h2>
+                    <h2 class="text-3xl text-center text-white font-bold">Descubra uma nova perspectiva de consultoria no agronegócio e junte-se a nós para transformar sua <span class="text-primary">gestão de risco</span></h2>
 
                     <div class="flex justify-center gap-2">
                         <div class="flex gap-2 items-center px-4 py-2 border border-primary rounded">

@@ -1,6 +1,6 @@
 <template>
     <div class="w-full xs:px-2 md:px-8 py-4 " :class="showMenu ? 'xs:h-dvh md:h-auto' : ''">
-        <nav class="w-full bg-white border flex flex-col rounded-md shadow transition-all ease-in-out" :class="showMenu ? 'xs:h-full md:h-20' : 'h-20'">
+        <nav class="w-full bg-white border flex flex-col rounded-md shadow transition-all ease-in-out px-2" :class="showMenu ? 'xs:h-full md:h-20' : 'h-20'">
             <Container class="flex justify-between xs:h-20 md:h-full items-center">
                 <NuxtLink to="/" class="xs:w-[130px] md:w-[150px]">
                     <Logo />
