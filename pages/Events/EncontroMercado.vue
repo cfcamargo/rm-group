@@ -86,9 +86,9 @@ definePageMeta({
 })
 
 const form = reactive({
-  name: 'ddasdsadsadvbasd',
-  email: 'cristian@gmail.com',
-  phone: '3278327463527',
+  name: '',
+  email: '',
+  phone: '',
 })
 
 const invalidForm = ref('')
