@@ -4,8 +4,14 @@ import { google } from 'googleapis';
 export default defineEventHandler(async (event) => {
     const payload = await readBody(event);
 
+    const clientEmail = import.meta.env.VITE_GOOGLE_CLIENT_EMAIL;
+    const privateKey = import.meta.env.VITE_GOOGLE_PRIVATE_KEY.replace(/\\n/g, '\n');
+
     const auth = new google.auth.GoogleAuth({
-        keyFile: './credentials.json',
+        credentials: {
+            client_email: clientEmail,
+            private_key: privateKey,
+        },
         scopes: ['https://www.googleapis.com/auth/spreadsheets'],
     });
 
