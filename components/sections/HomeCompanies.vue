@@ -1,7 +1,7 @@
 <template>
     <div class="w-full py-20">
         <Container>
-            <h4 class="font-bold text-3xl text-primary xs:text-center md:text-start">NOSSOS PARCEIROS</h4>
+            <h4 class="font-bold text-3xl text-primary xs:text-center md:text-start">{{ $t("NOSSOS PARCEIROS") }}</h4>
 
             <div class="mt-10">
                 <Swiper

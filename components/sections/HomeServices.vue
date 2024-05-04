@@ -3,23 +3,23 @@
         <Container class="xs:hidden md:grid xs:grid-cols-1 md:grid-cols-2 xs:gap-10 md:gap-20 h-[750px]">
             <div class="flex flex-col gap-8">
                 <div>
-                    <span>SERVIÇOS</span>
-                    <h4 class="text-3xl font-bold text-primary">O QUE FAZEMOS?</h4>
+                    <span>{{ $t("SERVIÇOS") }}</span>
+                    <h4 class="text-3xl font-bold text-primary">{{ $t("O QUE FAZEMOS?") }}</h4>
                 </div>
 
                 <div class="xs:hidden md:block">
                     <div class="grid grid-cols-3">
                         <button class="flex items-center gap-2 justify-center" @click="selectService('consulting')">
                             <IconAcessory :fillColor="seriveSelected === 'consulting' ? '#00BC4C' : '#002132'"/>
-                            <span :class="seriveSelected === 'consulting' ? 'text-primary font-bold' : 'text-secondary'" >Consultoria</span>
+                            <span :class="seriveSelected === 'consulting' ? 'text-primary font-bold' : 'text-secondary'" >{{ $t("Consultoria") }}</span>
                         </button>
                         <button class="flex items-center gap-2 justify-center"  @click="selectService('monitoring')">
                             <IconReports :fillColor="seriveSelected === 'monitoring' ? '#00BC4C' : '#002132'"/>
-                            <span :class="seriveSelected === 'monitoring' ? 'text-primary font-bold' : 'text-secondary'">Relatórios</span>
+                            <span :class="seriveSelected === 'monitoring' ? 'text-primary font-bold' : 'text-secondary'">{{ $t("Relatórios") }}</span>
                         </button>
                         <button class="flex items-center gap-2 justify-center"  @click="selectService('training')">
                             <IconTraining :fillColor="seriveSelected === 'training' ? '#00BC4C' : '#002132'"/>
-                            <span :class="seriveSelected === 'training' ? 'text-primary font-bold' : 'text-secondary'">Treinamentos</span>
+                            <span :class="seriveSelected === 'training' ? 'text-primary font-bold' : 'text-secondary'">{{ $t("Treinamentos") }}</span>
                         </button>
                     </div>
                     <div class="h-5 flex items-center">
@@ -32,9 +32,9 @@
                 </div>
 
                 <div class="flex-1 flex flex-col mt-10 gap-8 items-start">
-                    <h4 class="text-2xl font-bold text-primary">{{serviceList[seriveSelected].title}}</h4>
-                    <p class="text-secondary text-justify">{{serviceList[seriveSelected].content}}</p>
-                    <span class="text-secondary">{{serviceList[seriveSelected].action}}</span>
+                    <h4 class="text-2xl font-bold text-primary">{{ $t(serviceList[seriveSelected].title) }}</h4>
+                    <p class="text-secondary text-justify">{{ $t(serviceList[seriveSelected].content) }}</p>
+                    <span class="text-secondary">{{ $t(serviceList[seriveSelected].action) }}</span>
 
                     <BaseButton class="xs:w-full md:w-auto" text="Saiba mais" url="/services"/>
                 </div>
@@ -52,15 +52,15 @@
         <Container class="xs:flex flex-col md:hidden">
             <div class="flex flex-col gap-10">
                 <div>
-                    <span>SERVIÇOS</span>
-                    <h4 class="text-3xl font-bold text-primary">O QUE FAZEMOS?</h4>
+                    <span>{{ $t("SERVIÇOS") }}</span>
+                    <h4 class="text-3xl font-bold text-primary">{{ $t("O QUE FAZEMOS?") }}</h4>
                 </div>
 
                 <div class="flex flex-col-reverse gap-8" v-for="service in serviceList" :key="service.title">
                     <div class="flex flex-col gap-8 items-start">
-                        <h4 class="text-2xl font-bold text-primary">{{service.title}}</h4>
-                        <p class="text-secondary text-justify">{{service.content}}</p>
-                        <span class="text-secondary">{{service.action}}</span>
+                        <h4 class="text-2xl font-bold text-primary">{{ $t(service.title) }}</h4>
+                        <p class="text-secondary text-justify">{{ $t(service.content) }}</p>
+                        <span class="text-secondary">{{ $t(service.action) }}</span>
 
                         <BaseButton class="xs:w-full md:w-auto" text="Saiba mais" url="/services"/>
                     </div>
