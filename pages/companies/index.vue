@@ -2,7 +2,7 @@
     <div class="w-full xs:h-dvh md:h-[525px] xs:bg-[url('/bg/companies-bg-mobile.png')] md:bg-[url('/bg/companies-bg.png')] bg-cover bg-center">
         <div class="banner-effect w-full h-full flex items-center">
             <Container class="w-full h-full flex xs:items-end md:items-center xs:pb-20 md:pb-0">
-                <h2 class="xs:text-3xl md:text-4xl font-bold text-white">NOSSOS PARCEIROS</h2>
+                <h2 class="xs:text-3xl md:text-4xl font-bold text-white">{{ $t("NOSSOS PARCEIROS") }}</h2>
             </Container>
         </div>
     </div>

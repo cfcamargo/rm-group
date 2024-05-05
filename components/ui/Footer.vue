@@ -5,18 +5,18 @@
                 <h4 class="font-bold" :class="layoutStore.getFooterColor === 'blue' ? 'text-primary' : 'text-secondary'">Links</h4>
 
                 <div class="flex flex-col gap-2" :class="layoutStore.getFooterColor === 'blue' ? 'text-white' : 'text-secondary'">
-                    <NuxtLink to="/" class="text-sm">Home</NuxtLink>
-                    <NuxtLink to="/about" class="text-sm">Sobre</NuxtLink>
-                    <NuxtLink to="/services" class="text-sm">Serviços</NuxtLink>
-                    <NuxtLink to="/biography" class="text-sm">Biografia</NuxtLink>
-                    <NuxtLink to="/companies" class="text-sm">Parceiros</NuxtLink>
-                    <NuxtLink to="#contact" class="text-sm">Contato</NuxtLink>
+                    <NuxtLink to="/" class="text-sm">{{ $t("Home") }}</NuxtLink>
+                    <NuxtLink to="/about" class="text-sm">{{ $t("Sobre") }}</NuxtLink>
+                    <NuxtLink to="/services" class="text-sm">{{ $t("Serviços") }}</NuxtLink>
+                    <NuxtLink to="/biography" class="text-sm">{{ $t("Biografia") }}</NuxtLink>
+                    <NuxtLink to="/companies" class="text-sm">{{  $t("Parceiros") }}</NuxtLink>
+                    <NuxtLink to="#contact" class="text-sm">{{ $t("Contato") }}</NuxtLink>
                 </div>
             </div>
 
             <div class="flex flex-col gap-6" id="contact">
                 <div class="flex flex-col gap-2">
-                    <h4 class="font-bold" :class="layoutStore.getFooterColor === 'blue' ? 'text-primary' : 'text-secondary'">Contato</h4>
+                    <h4 class="font-bold" :class="layoutStore.getFooterColor === 'blue' ? 'text-primary' : 'text-secondary'">{{ $t("Contato") }}</h4>
                     <div class="flex flex-col gap-2" :class="layoutStore.getFooterColor === 'blue' ? 'text-white' : 'text-secondary'">
                         <a href="https://api.whatsapp.com/send?phone=5565999377184" target="_blank" class="flex items-center gap-2">
                             <IconWhatsapp :color="setIconStyle" />
@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="flex flex-col gap-4">
-                    <h4 class="font-bold" :class="layoutStore.getFooterColor === 'blue' ? 'text-primary' : 'text-secondary'">Redes Sociais</h4>
+                    <h4 class="font-bold" :class="layoutStore.getFooterColor === 'blue' ? 'text-primary' : 'text-secondary'">{{ $t("Redes Sociais") }}</h4>
                     <div class="flex flex-col gap-2" :class="layoutStore.getFooterColor === 'blue' ? 'text-white' : 'text-secondary'">
                         <a href="https://www.instagram.com/rmg.agro?igsh=OHluYjdhd3kyMTdk" target="_blank" class="flex items-center gap-2">
                             <IconInstagram :color="setIconStyle" />
@@ -50,7 +50,7 @@
                 <span :class="layoutStore.getFooterColor === 'blue' ? 'text-white' : 'text-secondary'">www.rmgroup.com.br</span>
 
 
-                <p class="text-xs mt-20" :class="layoutStore.getFooterColor === 'blue' ? 'text-white' : 'text-secondary'">© 2023 - {{ dateNow }} RM Group. Todos os direitos reservados.</p>
+                <p class="text-xs mt-20" :class="layoutStore.getFooterColor === 'blue' ? 'text-white' : 'text-secondary'">© 2023 - {{ dateNow }} RM Group. {{ $t("Todos os direitos reservados.") }}</p>
             </div>
         </Container>
 

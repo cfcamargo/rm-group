@@ -1,7 +1,7 @@
 <template>
     <div class="w-full py-20">
         <Container>
-            <h4 class="font-bold text-3xl text-primary">NOTÍCIAS</h4>
+            <h4 class="font-bold text-3xl text-primary">{{ $t("NOTÍCIAS") }}</h4>
         </Container>
 
         <div class="mt-[200px] w-full bg-primary h-[300px]">
@@ -13,11 +13,11 @@
                         </div>
 
                         <div class="flex-1 flex flex-col gap-6 p-4">
-                            <span class="font-bold text-primary">RM Agro inova no agronegócio</span>
+                            <span class="font-bold text-primary">{{ $t("RM Agro inova no agronegócio") }}</span>
 
-                            <p class="overflow-ellipsis">A RM Agro é uma empresa pioneira...</p>
+                            <p class="overflow-ellipsis">{{ $t("A RM Agro é uma empresa pioneira...") }}</p>
 
-                            <NuxtLink to="/news/1" class="text-primary font-bold">Ler mais</NuxtLink>
+                            <NuxtLink to="/news/1" class="text-primary font-bold">{{ $t("Ler mais") }}</NuxtLink>
                         </div>
                     </div>
                 </NuxtLink>
