@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   components: [{ path: '~/components', pathPrefix: false }],
   css: ['@/assets/css/main.css', '@/assets/css/hamburguer.css'],
-  modules: ['@nuxt/image', 'nuxt-swiper', '@pinia/nuxt', "@nuxtjs/i18n"],
+  modules: ['@nuxt/image', 'nuxt-swiper', '@pinia/nuxt', "@nuxtjs/i18n", 'nuxt-gtag'],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -20,5 +20,9 @@ export default defineNuxtConfig({
   i18n: {
       vueI18n: '@/i18n/i18n.config.ts',
       defaultLocale: 'pt',
+  },
+  gtag: {
+    enabled: process.env.NODE_ENV === 'production',
+    id: 'GTM-TFFM6HSM'
   }
 })

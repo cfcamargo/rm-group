@@ -17,6 +17,7 @@
     "googleapis": "^134.0.0",
     "maska": "^2.1.11",
     "nuxt": "^3.11.2",
+    "nuxt-gtag": "^3.0.2",
     "nuxt-swiper": "^1.2.2",
     "pinia": "^2.1.7",
     "uikit": "^3.19.2",
